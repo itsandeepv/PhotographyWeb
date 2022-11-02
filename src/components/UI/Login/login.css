@@ -1,0 +1,97 @@
+.login {
+    width: 250px;
+    height: 250px;
+    border: 1px solid red;
+
+
+}
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+.sub_btn {
+    border: 2px solid #67d2df;
+    color: #263045;
+    font-size: 12px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 8px 25px;
+    background-color: transparent
+}
+
+
+.sub_btn:hover {
+    color: white;
+    background-color: #67d2df;
+    transition: 0.3s;
+}
+
+
+.form_input {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border: .7px solid rgba(0, 0, 0, 0.25);
+
+}
+
+.form_input:focus {
+    outline: none;
+
+
+}
+
+.signup {
+    font-size: 14px;
+    color: #263045;
+}
+
+.signup a {
+    color: #67d2df;
+    text-decoration: none;
+    padding-left: 12px;
+}
+
+.signup a:hover {
+    color: #263045;
+    text-decoration: underline;
+}
+
+
+.close_btn {
+    position: relative;
+    border: none;
+    background: none;
+ padding: 4px;
+    left: 17rem;
+    top: -1.8rem;
+
+}
+
+
+.he_text{
+    font-size: 14px;
+    padding: 7px 0;
+}
+
+.close_btn img{
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    padding: 3px;
+}
+.shadow_cus{
+        box-shadow: 0 1px 4px 0 rgb(37 55 72 / 17%);
+}
+
+
+@media only screen and (max-width: 750px) {
+    .sub_btn{
+        font-size: 10px;
+    }
+    .he_text{
+        font-size: 10px;
+    }
+}

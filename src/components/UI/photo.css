@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap");
+
+body {
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+}
+
+
+html {
+    overflow-x: hidden;
+}
+
+
+.img_div {
+    width: 18%;
+    gap: 20px;
+}
+
+.img_div img {
+    width: 100%;
+    height: auto;
+}
+
+.btn_a a {
+    color: unset;
+}
+
+.btn_log:hover {
+    color: #fff;
+    transition: 0.3s;
+    background-color: #67d2df;
+}
+
+.toggle_btn {
+    display: none;
+}
+
+.back_img {
+    background-image: url("../assets/sp-home-banner-11.jpg");
+    background-size: cover;
+}
+
+.back_img {
+    height: 35rem;
+    width: auto;
+}
+
+.hero-data {
+    background-color: rgba(24, 68, 79, 0.6);
+    color: #fff;
+    font-family: Inter, sans-serif !important;
+    width: 70%;
+    padding: 10px 12px;
+}
+
+.hero-data p {
+    font-size: 50px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.box_sizing {
+    height: 35rem;
+    width: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_box img {
+    width: 279px;
+    height: auto;
+}
+
+.center_img {
+    padding: 10px 3px;
+}
+
+.center_img img {
+    width: 100%;
+    height: auto;
+}
+
+.img_box2 {
+    padding: 3px;
+}
+
+.img_box2 img {
+    width: 100%;
+    height: 16rem;
+}
+
+.img3 {
+    height: 16rem;
+}
+
+.img_center2 {
+    padding-top: 5rem;
+    height: 93%;
+}
+
+.img_box {
+    padding: 3px;
+}
+
+.img_box img {
+    width: 100%;
+    height: 15rem;
+}
+
+.head_line {
+    font-size: 31px;
+    z-index: 10;
+    font-weight: 500;
+    width: 35%;
+    color-scheme: #263045;
+}
+
+.img_maindiv {
+    display: flex;
+    gap: 2px;
+}
+
+.img_center {
+    height: 270px;
+    width: auto;
+}
+
+.img_center img {
+    height: 100%;
+    width: auto;
+}
+
+.img_section_main {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.img_sizeB img {
+
+
+    display: none;
+
+
+}
+
+@media only screen and (max-width: 750px) {
+    .img_size img {
+        width: 32px;
+        position: relative;
+        top: 57px;
+        right: 15px;
+    }
+
+
+    .menu_mobile {
+        display: block;
+        background-color: #263045;
+    }
+
+
+
+    .menu_mobile ul {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: end;
+        align-items: end;
+        position: relative;
+        right: 1rem;
+    }
+
+    .toggle_btn {
+        display: block;
+        position: relative;
+        text-align: end;
+        top: 1rem;
+        right: 10px;
+    }
+
+    .nav_div {
+        width: 50%;
+        position: relative;
+        float: right;
+    }
+
+    .toggle_btn span {
+        padding: 6px;
+        /* border: 2px solid red; */
+        background: rgba(0, 0, 0, 0.25);
+        border-radius: 50%;
+    }
+
+
+    .mobile_padd {
+        padding: 0;
+    }
+
+    .hero-data {
+        width: auto;
+    }
+
+    .hero-data p {
+        font-size: 25px;
+    }
+
+    .img_div {
+        width: 90%;
+        margin-left: 1.2rem;
+    }
+
+    .img_section_main {
+        display: block;
+        margin-left: 1.2rem;
+    }
+
+
+    .nav_div {
+        transform: translateX(20rem);
+    }
+
+    .tooggelClass {
+        transform: translateX(0rem);
+        transition: 0.3s;
+    }
+
+    .box_sizing {
+        align-items: end;
+        position: absolute;
+    }
+
+
+    .head_line {
+        font-size: 26px;
+        z-index: 10;
+        font-weight: 500;
+        width: 74%;
+        color-scheme: #263045;
+        margin-bottom: 1rem;
+        padding: 12px;
+    }
+
+    .img_box img {
+        margin-bottom: 1rem;
+        height: 20rem;
+    }
+
+    .img_center2 {
+        padding-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .img_box2 img {
+        margin-bottom: 1rem;
+        height: 20rem;
+    }
+
+    .img_sizeB img {
+        width: 32px;
+        position: absolute;
+        display: block;
+        top: 27px;
+    }
+
+}
+
+
+@media (min-width:571px) and (max-width: 750px) {
+    .mdScrenn {
+        display: none;
+    }
+}
